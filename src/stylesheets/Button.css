@@ -1,0 +1,23 @@
+.container__button {
+  display: flex;
+  justify-content: center;
+}
+
+.button__click {
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  background: #800080;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ffefd5;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px pink;
+}
+
+.button__click:active {
+  background-color: #dc143c;
+  color: #800080;
+}

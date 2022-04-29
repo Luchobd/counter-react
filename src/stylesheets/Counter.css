@@ -1,0 +1,14 @@
+.container__counter {
+  border: 0.5rem solid var(--color-counter);
+  padding: 1rem 3rem;
+  min-width: 15rem;
+  border-radius: 1.5rem;
+  background-color: var(--background-counter);
+  box-shadow: 5px 5px 5px pink;
+}
+
+.counter__number {
+  font-size: 10rem;
+  color: var(--color-counter);
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+:root {
+  --color-counter: #ffefd5;
+  --background-counter: #0000ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: var(--background-counter);
+}
+
+.App {
+  width: 60vw;
+}
+
+.title {
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  color: papayawhip;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
